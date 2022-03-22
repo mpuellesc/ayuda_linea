@@ -100,6 +100,7 @@
                         //]]>
                         </script>
                         <div class="b-workZone
+        m-workZone__withoutSideNav
 " id="workZone">
                             <table class="b-workZone__layout">
                                 <tr>
@@ -122,27 +123,11 @@
 
 
                         <div class="b-tabs__selectorItems">
-
-                            <div class="b-tabs__selectorItem m-tabs__selectorItem__selected m-tabs__selectorItem__first" id="tabSelector_menu">
-                                <span class="b-tabs__selectorItemIcon b-interfaceIcon m-interfaceIcon__menu"></span>
-                                <span class="b-tabs__selectorContent">Men&#x00FA;</span>
-                            </div>
-    
-                            <div class="b-tabs__selectorItem m-tabs__selectorItem__unselected" id="tabSelector_index">
-                                <span class="b-tabs__selectorItemIcon b-interfaceIcon m-interfaceIcon__index"></span>
-                                <span class="b-tabs__selectorContent">&#x00CD;ndice</span>
-                             </div>
-    
-                            <div class="b-tabs__selectorItem m-tabs__selectorItem__unselected" id="tabSelector_search">
-                                <span class="b-tabs__selectorItemIcon b-interfaceIcon m-interfaceIcon__search"></span>
-                                <span class="b-tabs__selectorContent">B&#x00FA;squeda</span>
-                            </div>
-
                         </div><!-- /b-tabs__selectorItems -->
 
                         <div class="b-tabs__wrapperItems" id="tabWrapperItems">
                         
-                            <div class="b-tabs__wrapperItem m-tabs__wrapperItem__selected" id="tabWrapper_menu">
+                            <div class="b-tabs__wrapperItem" id="tabWrapper_menu">
                                 <div class="b-tabs__wrapperItemInner">
                                     <div class="b-tree">
                                     </div>                              
@@ -214,32 +199,10 @@
 
                                     <td class="b-workZone__side m-workZone__side__article" id="workZone_article">
                                         <div class="b-workZone__content" id="workZone_article__content">
-                                            <a href="#" class="b-article__presentSideNavButton" id="presentSideNavButton"><span></span></a>
                                             <div class="b-workZone__overlay" id="workZone_article__overlay"></div>
 
 <div class="b-article" id="article">
     <div class="b-article__preWrapper">
-        <table class="b-article__headerLayout" id="article__header">
-            <tr>
-                <td id="headerSide__nav" class="b-article__headerSide m-article__headerSide__nav">
-                    <div id="headerSide__nav__breadCrumbs" class="b-breadCrumbs">
-                        <ul class="b-breadCrumbs__items"><li class="b-breadCrumbs__item"><a href="aplicacion_web.htm" class="b-breadCrumbs__link">1. Aplicaci&#x00F3;n web</a></li>
-
-<li class="b-breadCrumbs__item"><a href="empresa_1.htm" class="b-breadCrumbs__link">1.1. Empresa</a></li>
-
-<li class="b-breadCrumbs__item">1.1.2. Estructura</li>
-</ul>                    </div>
-                </td>
-                <td id="headerSide__buttons" class="b-article__headerSide m-article__headerSide__buttons">
-                    <div class="b-controlButtons">
-                        <ul class="b-controlButtons__items">
-                            <li class="b-controlButtons__item m-controlButtons__item__prev"><a href="acceso.htm" class="b-controlButtons__link" title="Anterior"><span class="b-controlButtons__link_icon"></span><span class="b-controlButtons__link_text">&#xa0;Anterior</span></a></li>
-                            <li class="b-controlButtons__item m-controlButtons__item__next"><a href="menu_1.htm" class="b-controlButtons__link" title="Siguiente"><span class="b-controlButtons__link_text">Siguiente&#xa0;</span><span class="b-controlButtons__link_icon"></span></a></li>
-                                                </ul>
-                    </div>
-                </td>
-            </tr>
-        </table>
         <div class="b-article__wrapper">
             <div class="b-article__innerWrapper" id="description_on_page_placeholder">
             <a id="top" class="anchor"></a>
@@ -263,7 +226,7 @@
                             .addClass("b-article__headerSide m-article__headerSide__buttons")
                             .append(
                                 $("<div></div>").addClass("b-controlButtons")
-                                .html($("<ul></ul>").addClass("b-controlButtons__items").html("    <li class=\"b-controlButtons__item m-controlButtons__item__prev\"><a href=\"acceso.htm\" class=\"b-controlButtons__link\" title=\"Anterior\"><span class=\"b-controlButtons__link_icon\"></span><span class=\"b-controlButtons__link_text\">&#xa0;Anterior</span></a></li>\n    <li class=\"b-controlButtons__item m-controlButtons__item__next\"><a href=\"menu_1.htm\" class=\"b-controlButtons__link\" title=\"Siguiente\"><span class=\"b-controlButtons__link_text\">Siguiente&#xa0;</span><span class=\"b-controlButtons__link_icon\"></span></a></li>\n"))
+                                .html($("<ul></ul>").addClass("b-controlButtons__items").html(""))
                             )
                         )
                     )
@@ -300,7 +263,7 @@
 <col style="width: 100%;" class="de_col_1_576" />
 <tr style="height: 29px;">
 <td class="de_td_576" style = "padding: 2px; padding-bottom: 1px; border-left-style: none; border-left-width: 0px; border-left-color: #000000; border-right-style: none; border-right-width: 0px; border-right-color: #000000; border-top-style: none; border-top-width: 0px; border-top-color: #000000; border-bottom-style: none; border-bottom-width: 0px; border-bottom-color: #000000;  width: 100%; vertical-align: top;" colspan = "1" rowspan = "1" >
-<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span style="font-family: &quot;Arial&quot;;font-size: 10pt;color:#f0f0f0;">  (c) Company name, 2022</span></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><span style="font-family: &quot;Arial&quot;;font-size: 10pt;color:#f0f0f0;">  La Marqueza, 2022</span></div>
 </td></tr></table></div>
                     </td>
                 </tr>
@@ -319,7 +282,7 @@
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">
 <a class="anchor" id="wndid_top"></a>
-<map name="controlmap085e91f1_912b_4832_9de6_8acc6edb7148" id="controlmap085e91f1_912b_4832_9de6_8acc6edb7148">
+<map name="controlmapb7b96e97_ff6a_40b7_bb1b_d36ea2677309" id="controlmapb7b96e97_ff6a_40b7_bb1b_d36ea2677309">
 <area shape="rect" alt="" href="#id_1" coords="20,175,48,203" data-coord-left="20" data-coord-top="175" data-coord-right="48" data-coord-bottom="203"  />
 <area shape="rect" alt="" href="#id_2" coords="50,459,78,487" data-coord-left="50" data-coord-top="459" data-coord-right="78" data-coord-bottom="487"  />
 <area shape="rect" alt="" href="#id_3" coords="764,55,792,83" data-coord-left="764" data-coord-top="55" data-coord-right="792" data-coord-bottom="83"  />
@@ -329,44 +292,44 @@
 <area shape="rect" alt="" href="#id_7" coords="1219,35,1247,63" data-coord-left="1219" data-coord-top="35" data-coord-right="1247" data-coord-bottom="63"  />
 <area shape="rect" alt="" href="#id_8" coords="1290,41,1318,69" data-coord-left="1290" data-coord-top="41" data-coord-right="1318" data-coord-bottom="69"  />
 <area shape="rect" alt="" href="#id_9" coords="1376,33,1404,61" data-coord-left="1376" data-coord-top="33" data-coord-right="1404" data-coord-bottom="61"  />
-</map><img usemap="#controlmap085e91f1_912b_4832_9de6_8acc6edb7148"  alt="1.1.2. Estructura" style="border: solid 0px;  " width="1447" height="772" class="de_wndimg de_780D01ADE8" src="drex_estructura_1_screen.png" data-full-src="drex_estructura_1_screen.png" data-full-width="1447" data-full-height="772" /></div>
+</map><img usemap="#controlmapb7b96e97_ff6a_40b7_bb1b_d36ea2677309"  alt="1.1.2. Estructura" style="border: solid 0px;  " width="1447" height="772" class="de_wndimg de_780D01ADE8" src="drex_estructura_1_screen.png" data-full-src="drex_estructura_1_screen.png" data-full-width="1447" data-full-height="772" /></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="de_ctrl"><table><tr><td><a class="anchor" id="id_1"></a><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="anchor" href="#wndid_top"><img  alt="1" style="border: solid 0px;  float: left; " width="40" height="40" class="de_ctrlbullet de_780D01ADE8" src="drex_bullet_1.png"/></a><div class="ic"><h2><strong>Usuario</strong></h2></div></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="1. Usuario" style="border: solid 0px;  " width="222" height="68" class="de_ctrlimg de_780D01ADE8" src="drex_estructura_1_control_1.png" data-full-src="drex_estructura_1_control_1.png" data-full-width="222" data-full-height="68" /></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&lt;TAREAS PENDIENTES&gt;: Descripción del control</div>
-</td></tr><tr class="topLinkRow" style="border-style:none"><td style="border-style:none; text-align: right;"><div style="text-align: right; font-size:8pt"><a href="#top">Arriba</a></div></td></tr></table></div></div>
+</td></tr></table></div></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="de_ctrl"><table><tr><td><a class="anchor" id="id_2"></a><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="anchor" href="#wndid_top"><img  alt="2" style="border: solid 0px;  float: left; " width="40" height="40" class="de_ctrlbullet de_780D01ADE8" src="drex_bullet_2.png"/></a><div class="ic"><h2><strong>Menú</strong></h2></div></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="2. Men&#x00FA;" style="border: solid 0px;  " width="224" height="482" class="de_ctrlimg de_780D01ADE8" src="drex_estructura_1_control_2.png" data-full-src="drex_estructura_1_control_2.png" data-full-width="224" data-full-height="482" /></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&lt;TAREAS PENDIENTES&gt;: Descripción del control</div>
-</td></tr><tr class="topLinkRow" style="border-style:none"><td style="border-style:none; text-align: right;"><div style="text-align: right; font-size:8pt"><a href="#top">Arriba</a></div></td></tr></table></div></div>
+</td></tr></table></div></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="de_ctrl"><table><tr><td><a class="anchor" id="id_3"></a><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="anchor" href="#wndid_top"><img  alt="3" style="border: solid 0px;  float: left; " width="40" height="40" class="de_ctrlbullet de_780D01ADE8" src="drex_bullet_3.png"/></a><div class="ic"><h2><strong>Buscador</strong></h2></div></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="3. Buscador" style="border: solid 0px;  " width="712" height="48" class="de_ctrlimg de_780D01ADE8" src="drex_estructura_1_control_3.png" data-full-src="drex_estructura_1_control_3.png" data-full-width="712" data-full-height="48" /></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&lt;TAREAS PENDIENTES&gt;: Descripción del control</div>
-</td></tr><tr class="topLinkRow" style="border-style:none"><td style="border-style:none; text-align: right;"><div style="text-align: right; font-size:8pt"><a href="#top">Arriba</a></div></td></tr></table></div></div>
+</td></tr></table></div></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="de_ctrl"><table><tr><td><a class="anchor" id="id_4"></a><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="anchor" href="#wndid_top"><img  alt="4" style="border: solid 0px;  float: left; " width="40" height="40" class="de_ctrlbullet de_780D01ADE8" src="drex_bullet_4.png"/></a><div class="ic"><h2><strong>Área de trabajo</strong></h2></div></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="4. &#x00C1;rea de trabajo" style="border: solid 0px;  " width="1110" height="548" class="de_ctrlimg de_780D01ADE8" src="drex_estructura_1_control_4.png" data-full-src="drex_estructura_1_control_4.png" data-full-width="1110" data-full-height="548" /></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&lt;TAREAS PENDIENTES&gt;: Descripción del control</div>
-</td></tr><tr class="topLinkRow" style="border-style:none"><td style="border-style:none; text-align: right;"><div style="text-align: right; font-size:8pt"><a href="#top">Arriba</a></div></td></tr></table></div></div>
+</td></tr></table></div></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="de_ctrl"><table><tr><td><a class="anchor" id="id_5"></a><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="anchor" href="#wndid_top"><img  alt="5" style="border: solid 0px;  float: left; " width="40" height="40" class="de_ctrlbullet de_780D01ADE8" src="drex_bullet_5.png"/></a><div class="ic"><h2><strong>Logo</strong></h2></div></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="5. Logo" style="border: solid 0px;  " width="208" height="58" class="de_ctrlimg de_780D01ADE8" src="drex_estructura_1_control_5.png" data-full-src="drex_estructura_1_control_5.png" data-full-width="208" data-full-height="58" /></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&lt;TAREAS PENDIENTES&gt;: Descripción del control</div>
-</td></tr><tr class="topLinkRow" style="border-style:none"><td style="border-style:none; text-align: right;"><div style="text-align: right; font-size:8pt"><a href="#top">Arriba</a></div></td></tr></table></div></div>
+</td></tr></table></div></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="de_ctrl"><table><tr><td><a class="anchor" id="id_6"></a><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="anchor" href="#wndid_top"><img  alt="6" style="border: solid 0px;  float: left; " width="40" height="40" class="de_ctrlbullet de_780D01ADE8" src="drex_bullet_6.png"/></a><div class="ic"><h2><strong>Notificaciones</strong></h2></div></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="6. Notificaciones" style="border: solid 0px;  " width="52" height="43" class="de_ctrlimg de_780D01ADE8" src="drex_estructura_1_control_6.png"/></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&lt;TAREAS PENDIENTES&gt;: Descripción del control</div>
-</td></tr><tr class="topLinkRow" style="border-style:none"><td style="border-style:none; text-align: right;"><div style="text-align: right; font-size:8pt"><a href="#top">Arriba</a></div></td></tr></table></div></div>
+</td></tr></table></div></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="de_ctrl"><table><tr><td><a class="anchor" id="id_7"></a><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="anchor" href="#wndid_top"><img  alt="7" style="border: solid 0px;  float: left; " width="40" height="40" class="de_ctrlbullet de_780D01ADE8" src="drex_bullet_7.png"/></a><div class="ic"><h2><strong>Mensajes</strong></h2></div></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="7. Mensajes" style="border: solid 0px;  " width="44" height="40" class="de_ctrlimg de_780D01ADE8" src="drex_estructura_1_control_7.png"/></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&lt;TAREAS PENDIENTES&gt;: Descripción del control</div>
-</td></tr><tr class="topLinkRow" style="border-style:none"><td style="border-style:none; text-align: right;"><div style="text-align: right; font-size:8pt"><a href="#top">Arriba</a></div></td></tr></table></div></div>
+</td></tr></table></div></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="de_ctrl"><table><tr><td><a class="anchor" id="id_8"></a><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="anchor" href="#wndid_top"><img  alt="8" style="border: solid 0px;  float: left; " width="40" height="40" class="de_ctrlbullet de_780D01ADE8" src="drex_bullet_8.png"/></a><div class="ic"><h2><strong>Perfil</strong></h2></div></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="8. Perfil" style="border: solid 0px;  " width="62" height="49" class="de_ctrlimg de_780D01ADE8" src="drex_estructura_1_control_8.png"/></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&lt;TAREAS PENDIENTES&gt;: Descripción del control</div>
-</td></tr><tr class="topLinkRow" style="border-style:none"><td style="border-style:none; text-align: right;"><div style="text-align: right; font-size:8pt"><a href="#top">Arriba</a></div></td></tr></table></div></div>
+</td></tr></table></div></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="de_ctrl"><table><tr><td><a class="anchor" id="id_9"></a><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="anchor" href="#wndid_top"><img  alt="9" style="border: solid 0px;  float: left; " width="40" height="40" class="de_ctrlbullet de_780D01ADE8" src="drex_bullet_9.png"/></a><div class="ic"><h2><strong>Chat y Tareas</strong></h2></div></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="9. Chat y Tareas" style="border: solid 0px;  " width="64" height="50" class="de_ctrlimg de_780D01ADE8" src="drex_estructura_1_control_9.png"/></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&lt;TAREAS PENDIENTES&gt;: Descripción del control</div>
-</td></tr><tr class="topLinkRow" style="border-style:none"><td style="border-style:none; text-align: right;"><div style="text-align: right; font-size:8pt"><a href="#top">Arriba</a></div></td></tr></table></div></div>
+</td></tr></table></div></div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
 <div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;">&#160;</div>
 </div>                                    			

@@ -1185,7 +1185,7 @@ DR_EXPLAIN.data_menu = {
     DREX_NODE_LINKS: ["index.htm","aplicacion_web.htm","aplicacion_movil.htm","generalidades.htm","empresa_1.htm","cliente.htm","acceso.htm","estructura_1.htm","menu_1.htm","estructura_2.htm","menu_2.htm","dashboard.htm","reportes.htm","compras.htm","ventas.htm","pedidos.htm","inventario.htm","blog_1.htm","ecommerce.htm","clientes.htm","proveedores.htm","usuarios.htm","roles.htm","configuracion.htm","inicio.htm","tienda.htm","blog_2.htm","nosotros.htm","contactanos.htm","reportes_por_dia.htm","reportes_por_fecha.htm","prediccion_de_ventas.htm","productos.htm","categorias.htm","etiquetas.htm","marcas.htm","publicaciones.htm","redes_sociales.htm","sliders.htm","suscripciones.htm","promociones.htm","empresa_2.htm","impresora.htm"],
     DREX_NODE_CHILD_START: [1,4,6,6,6,9,11,11,11,24,24,29,29,32,32,32,32,36,37,41,41,41,41,41,43,43,43,43,43,43,43,43,43,43,43,43,43,43,43,43,43,43,43],
     DREX_NODE_CHILD_END: [4,6,6,6,9,11,11,11,24,24,29,29,32,32,32,32,36,37,41,41,41,41,41,43,43,43,43,43,43,43,43,43,43,43,43,43,43,43,43,43,43,43,43],
-    DREX_MENU_TYPE: 2,
+    DREX_MENU_TYPE: 0,
     DREX_HAS_ROOT_NODE: 0};
 
 
@@ -1208,7 +1208,7 @@ DR_EXPLAIN.namespace( 'DR_EXPLAIN.data_resize' );
 DR_EXPLAIN.data_resize = {
 
     DREXPLAIN_FIT_HEIGHT_TO_WINDOW: 1,
-    DREX_INITIAL_MENU_WIDTH: "320px"
+    DREX_INITIAL_MENU_WIDTH: "0px"
 
 };
 
